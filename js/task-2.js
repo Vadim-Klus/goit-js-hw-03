@@ -3,7 +3,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     const rezult = firstArray.concat(secondArray);
     const copy = rezult.slice(0, maxLength);
   
-    if (rezult => maxLength){
+    if (rezult.length > maxLength){
         return copy;
     }
     else {
